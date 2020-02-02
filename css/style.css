@@ -1,0 +1,73 @@
+body {
+  background-image: linear-gradient(to right, rgb(38, 134, 62), rgb(39, 149, 212));
+}
+.page {
+  width: 80%;
+  max-width: 960px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+body {
+  font: 14px 'Bungee', Helvetica, Arial, sans-serif;
+  color: gold;
+  margin: 0px;
+  padding: 0px;
+  text-transform: uppercase;
+}
+section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+label {
+    flex-basis: 200px;
+}
+header{
+  font-size: 24px;
+  line-height: 48px;
+}
+h4 {
+  font-size: 21px;
+  font-family: 'Bungee', cursive;
+}
+h4 #clock {
+  font-size: 36px;
+  display: block;
+  padding: 5px 0px;
+  letter-spacing: 2px;
+}
+h1, h2, h3, h6 {
+  font-family: 'Bungee Shade', cursive;
+}
+
+#lolcatImage {
+  max-width:30em
+}
+
+blockquote {
+  font: 2em 'Open Sans', sans-serif;
+  text-shadow: 2px 2px #000;
+  margin: -40px auto 50px;
+  color: gold;
+}
+
+#wakeUpTimeSelector, #lunchTimeSelector, #napTimeSelector {
+  padding: 10px 2px;
+}
+#partyTimeButton {
+  background-color: #222;
+  width: 300px;
+  font-family: 'Bungee', cursive;
+  font-size: 18px;
+  color: gold;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+footer p {
+  text-transform: uppercase;
+  font-size: 12px;
+}
